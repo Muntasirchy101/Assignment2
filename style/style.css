@@ -433,7 +433,7 @@ button {
 
 .deal-1 {
     margin-top: 48px;
-    background-image: url(/Images/deal-1.png);
+    background-image: url(/Images/deal.png);
     background-size: cover;
     height: 500px;
     position: relative;
@@ -505,7 +505,7 @@ img {
 /*===*/
 .deal-2 {
     margin-top: 48px;
-    background-image: url(/Images/deal-1.png);
+    background-image: url(/Images/deal.png);
     background-size: cover;
     height: 500px;
     position: relative;
