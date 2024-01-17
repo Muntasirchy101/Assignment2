@@ -1,0 +1,169 @@
+/* header responsive  */
+
+@media screen and (max-width:676px) {
+    .menu {
+        display: none;
+    }
+
+    .hamburger {
+        display: contents;
+    }
+
+    nav {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+    }
+
+    nav .hamburger {
+        font-size: 1.3rem;
+
+    }
+
+    .logo h2 {
+        font-size: 1rem;
+        font-weight: 800;
+    }
+}
+
+
+@media screen and (min-width:677px) and (max-width:991px) {
+    .logo {
+        flex-direction: column;
+        gap: 10px;
+
+
+    }
+
+    .menu {
+        flex-direction: column;
+        padding-top: 20px;
+        gap: 10px;
+    }
+
+    nav {
+        flex-direction: column;
+        margin-left: 350px;
+        ;
+    }
+}
+
+
+/* Banner responsive starts here  */
+
+@media screen and (max-width:676px) {
+    #banner .container {
+        max-width: 80%;
+        height: 483px;
+
+    }
+
+    #banner {
+        margin: 0 auto;
+        background-size: cover;
+
+    }
+
+    .banner_content {
+        width: 80%;
+        top: 15%;
+    }
+
+    .banner_content h1 {
+        font-size: 1.5rem;
+    }
+
+    .banner_content p {
+        font-size: 0.8rem;
+    }
+
+    .banner-form {
+        flex-direction: column;
+        top: 20%;
+    }
+}
+
+
+
+/* popular starts here  */
+
+@media screen and (max-width:676px) {
+    .popular-parent {
+        grid-template-columns: 1fr;
+        /* Switch to a single column layout */
+        gap: 20px;
+        padding: 20px;
+    }
+}
+
+/* Destination starts here  */
+
+@media screen and (max-width: 676px) {
+    .row-1 {
+        display: grid;
+        grid-template-columns: 1fr;
+        gap: 25px;
+
+    }
+
+    .row2 {
+        display: grid;
+        grid-template-columns: 1fr;
+        gap: 25px;
+
+    }
+
+    .row3 {
+        display: grid;
+        grid-template-columns: 1fr;
+        gap: 25px;
+    }
+}
+
+
+/* choose section starts here  */
+
+@media screen and (max-width:676px) {
+    .card-parent {
+        display: grid;
+        grid-template-columns: 1fr;
+        gap: 25px;
+        
+    }
+    .card:nth-child(3) {
+        grid-column: span 1;
+       
+    }
+
+}
+
+
+
+
+
+
+/* fifth section starts here  */
+
+@media screen and (max-width:676px) {
+    .content {
+        display: grid;
+        grid-template-columns: 1fr ;
+        gap: 28px;
+        padding-right: 20px;
+        padding-left: 20px;
+        width: 90%;
+    
+    }
+    
+}
+
+/* newslater starts here  */
+
+@media screen and (max-width:676px) {
+    .later-parent {
+        display: grid;
+        grid-template-columns: 1fr;
+        gap: 24px;
+    }
+    
+}
